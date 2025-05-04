@@ -67,7 +67,7 @@ window.addEventListener('click', (e) => {
   }
 });
 
-// Helper Functions
+// flow identified here(main logic)
 function getFlowStatus(rainfall) {
   if (rainfall > 60) {
     return "High flow – Be cautious!";
